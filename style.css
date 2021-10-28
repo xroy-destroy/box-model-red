@@ -1,0 +1,79 @@
+a:link {
+    color: #db5d76;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:hover {
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: #6a5acd;
+}
+
+/* {
+    border: 1px solid rgb(18, 11, 65);
+}*/
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+/* -- "#title" is a unique ID selector that can be used only once, unlike a class selector*/
+
+#title {
+    background-color: #e03e3e;
+    text-align: center;
+    letter-spacing: 0.9em;
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    color: #dc143c;
+}
+
+body {
+    background-color: #ffeeee;
+}
+
+span {
+    display: inline-block;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #2f4f4f;
+}
+
+/* -- Adding 00-ff after the hexidecimal color will determine transperancy -- */
+
+.section-1 {
+    background-color: #ff634740;
+}
+
+.section-2 {
+    background-color: #ff634730;
+}
+
+.section-3 {
+    background-color: #ff634720;
+}
+
+aside {
+    background-color: #ff634710;
+}
+
+
+nav {
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    line-height: 2em;
+    letter-spacing: .3em;
+}
+
+footer ul {
+    list-style: circle;
+}
